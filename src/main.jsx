@@ -1088,7 +1088,13 @@ function DeckMapVisual() {
 function ChartVisual({ type }) {
   if (type === 'conversion-bars') return <div className="deck-visual bar-visual"><article><span style={{ height: '32%' }} /><b>1×</b><p>Traditional organic</p></article><article><span style={{ height: '92%' }} /><b>4.4×</b><p>AI-referred</p></article></div>;
   if (type === 'traffic-quality-inversion') return <div className="deck-visual inversion-visual"><article><b>Traffic volume</b><span className="down" /></article><strong>Fewer clicks, better clicks</strong><article><b>Conversion quality</b><span className="up" /></article></div>;
+  if (type === 'privacy-relevance-chart') return <div className="deck-visual line-visual"><svg viewBox="0 0 760 260" role="img"><polyline points="40,70 210,105 380,148 550,182 720,210" /><polyline className="accent" points="40,205 210,178 380,138 550,94 720,55" /><text x="48" y="238">Lifecycle program</text><text x="525" y="72">Revenue per recipient</text><text x="555" y="208">Send volume</text></svg></div>;
   return <div className="deck-visual line-visual"><svg viewBox="0 0 760 260" role="img"><polyline points="40,135 210,140 380,134 550,139 720,136" /><polyline className="accent" points="40,205 210,178 380,138 550,94 720,55" /><text x="48" y="238">90 days</text><text x="560" y="72">AI-triggered</text><text x="565" y="130">Calendar</text></svg></div>;
+}
+
+function ShareOfModelVisual() {
+  const brands = ['Acronym', 'Northstar', 'Orbit', 'Signal', 'Legacy'];
+  return <div className="deck-visual som-chart">{brands.map((brand, i) => <div className="som-row" key={brand}><span>{brand}</span><i style={{ width: `${88 - i * 12}%` }} /><em>{88 - i * 12}%</em></div>)}</div>;
 }
 
 function MatrixVisual({ type }) {
@@ -1107,6 +1113,7 @@ function DataViz({ slide }) {
   const type = slide.visualType;
   if (!type || type === 'title-card') return null;
   if (type === 'deck-map') return <DeckMapVisual />;
+  if (type === 'share-of-model-dashboard') return <ShareOfModelVisual />;
   if (['conversion-bars','traffic-quality-inversion','predictive-lifecycle-line','privacy-relevance-chart'].includes(type)) return <ChartVisual type={type} />;
   if (type === 'citation-multipliers') return <StatVisual slide={slide} />;
   if (['era-shift','paid-search-inversion','human-brand-cards','good-bad-cases','capi-signal-paths','conversational-ai-loop'].includes(type)) return <SplitVisual slide={slide} />;
