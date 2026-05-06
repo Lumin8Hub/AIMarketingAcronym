@@ -17,7 +17,8 @@ const slides = [
       "Set the frame: this is not a hype deck. This is a synthesis of where marketing actually is in May 2026 — what's working, what's failing, and what to do about it."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "title-card"
   },
   {
     "number": 2,
@@ -34,7 +35,8 @@ const slides = [
       "Less traffic, dramatically higher quality. The scoreboard has changed; budgets and tactics haven't caught up at most companies."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "conversion-bars"
   },
   {
     "number": 3,
@@ -45,11 +47,12 @@ const slides = [
     "visual": "12 small rounded cards, each with a numbered chip in coral and a 1-line descriptor. Acts as a deck map.",
     "note": "These aren't twelve workstreams — they're the connected components of the AI-native marketing operating system. Each section ends with a \"Do this Monday\" action.",
     "content": [
-      "A 3×4 grid of section icons + labels:",
-      "These aren't twelve workstreams — they're the connected components of the AI-native marketing operating system. Each section ends with a \"Do this Monday\" action."
+      "The deck is organized as twelve connected domains of the AI-native marketing operating system.",
+      "Each section ends with a practical Monday action so strategy turns into operating change."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "deck-map"
   },
   {
     "number": 4,
@@ -72,12 +75,13 @@ const slides = [
     "visual": "A horizontal arrow flowing left to right under the columns. Below: a 1-line callout in italic coral — *\"This shift is what unlocks the reported up to 340% Y1 ROI for mature implementations.\"*",
     "note": "The \"agentic leap\" is structural. It changes who does what — not just which tools are used.",
     "content": [
-      "Left — 2023–2024 (Experimental): Standalone copy generators, ad-hoc image tools, prompt libraries shared in Slack, \"AI sloppiness\" widely tolerated.",
-      "Right — 2026 (Agentic): AI orchestrates end-to-end workflows; humans set boundaries and supply context; centralized governance + decentralized execution.",
-      "The \"agentic leap\" is structural. It changes who does what — not just which tools are used."
+      "Experimental era: standalone copy generators, ad-hoc image tools, prompt libraries in Slack, and tolerance for AI sloppiness.",
+      "Agentic era: AI orchestrates end-to-end workflows while humans set boundaries, supply context, and govern execution.",
+      "The agentic leap changes who does what — not just which tools are used."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "era-shift"
   },
   {
     "number": 6,
@@ -88,13 +92,13 @@ const slides = [
     "visual": "Left side: a \"context architecture\" diagram — five labeled inputs (CRM, Product Feed, Brand Voice Doc, Performance History, Customer Research) flowing arrows into a central \"LLM/Agent\" node, which then flows out to \"Channels.\"",
     "note": "If your AI sounds generic, you don't have a model problem. You have a context architecture problem.",
     "content": [
-      "A two-row comparison card:",
-      "Row 1 — Prompt Engineering (commoditized): Clever queries → generic outputs → audiences ignore them.",
-      "Row 2 — Context Architecture (the new bar): Pipelines connecting CRM, product feeds, historical performance, and brand voice docs directly into the model → outputs grounded in proprietary truth.",
-      "If your AI sounds generic, you don't have a model problem. You have a context architecture problem."
+      "Prompt engineering: clever queries produce generic outputs that audiences ignore.",
+      "Context architecture: CRM, product feeds, performance history, customer research, and brand voice feed the model directly.",
+      "If your AI sounds generic, you do not have a model problem. You have a context architecture problem."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "context-architecture"
   },
   {
     "number": 7,
@@ -105,15 +109,15 @@ const slides = [
     "visual": "Each card has a small coral icon (database, paint palette, gear, target) in a navy circle, top-left.",
     "note": "This is the four-line mental model for everything that follows.",
     "content": [
-      "A 2×2 grid of \"before → after\" cards:",
-      "Data: Retroactive reporting → real-time predictive fuel for bidding and routing",
-      "Creative: Static finished assets → dynamic variables tested in millions of permutations",
-      "Automation: Trigger-based rules → predictive next-best-action workflows",
-      "Targeting: Manual demographic toggles → audience signals fed to algorithmic discovery",
+      "Data: retroactive reporting → real-time predictive fuel for bidding and routing.",
+      "Creative: static finished assets → dynamic variables tested in millions of permutations.",
+      "Automation: trigger-based rules → predictive next-best-action workflows.",
+      "Targeting: manual demographic toggles → audience signals fed to algorithmic discovery.",
       "This is the four-line mental model for everything that follows."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "pillar-grid"
   },
   {
     "number": 8,
@@ -123,7 +127,11 @@ const slides = [
     "subhead": "",
     "visual": "Three numbered chip cards, each with a tight 2-sentence action.",
     "note": "",
-    "content": [],
+    "content": [
+      "Audit one workflow where AI output feels generic and identify the missing context sources.",
+      "Create a single brand/context package: voice rules, product facts, customer proof, and compliance boundaries.",
+      "Assign one owner for AI governance and one owner for workflow experimentation."
+    ],
     "isDivider": false,
     "isAction": true
   },
@@ -148,14 +156,14 @@ const slides = [
     "visual": "Below the stats, a stacked bar showing \"Traffic Volume\" (down) vs. \"Conversion Quality\" (up) in a clear visual inversion. Caption in 12pt italic: *\"The winners get a smaller, much higher-quality clickstream.\"*",
     "note": "This is the single most important slide. The economics of organic have flipped — fewer clicks, but those clicks are gold.",
     "content": [
-      "Three large stat callouts in a row (60–72pt numerals):",
       "93% — Google AI Mode sessions ending with no click",
       "4.4× — Conversion lift from AI-referred visitors vs. traditional organic",
       "35% — Organic CTR boost for pages cited inside AI Overviews",
-      "This is the single most important slide. The economics of organic have flipped — fewer clicks, but those clicks are gold."
+      "The economics of organic have flipped: fewer clicks, but the clicks you earn are higher-intent."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "traffic-quality-inversion"
   },
   {
     "number": 11,
@@ -166,12 +174,13 @@ const slides = [
     "visual": "",
     "note": "Most CMOs cannot tell you their SoM today. By Q4 2026, it will be a board-level metric.",
     "content": [
-      "Definition box at top — *\"Share of Model (SoM): the frequency and prominence with which your brand is cited in AI-generated responses, relative to competitors, across the foundation models.\"*",
-      "A simulated \"Share of Model\" dashboard mockup — a horizontal bar chart showing 5 competitor brands, with citation rates across ChatGPT, Gemini, Perplexity, and Claude as 4 stacked color segments.",
-      "Most CMOs cannot tell you their SoM today. By Q4 2026, it will be a board-level metric."
+      "Share of Model (SoM): how often and how prominently your brand is cited in AI-generated answers relative to competitors.",
+      "Measure SoM across ChatGPT, Gemini, Perplexity, Claude, and Google AI Overviews — not just traditional rank.",
+      "By Q4 2026, SoM will become a board-level visibility metric."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "share-of-model-dashboard"
   },
   {
     "number": 12,
@@ -182,11 +191,14 @@ const slides = [
     "visual": "Funnel narrows left to right. Each column has a small icon and a 1-line \"fail mode\" in coral underneath: (\"blocked in robots.txt\" / \"buried in JS\" / \"weak schema\" / \"no third-party validation\").",
     "note": "Most teams are working on pillar 2 only. The big wins are on 1 and 4.",
     "content": [
-      "Four-column funnel diagram (each column is a pillar):",
-      "Most teams are working on pillar 2 only. The big wins are on 1 and 4."
+      "Technical access: bots can crawl, fetch, and understand the site without broken rendering or blocked agents.",
+      "Content structure: pages front-load answers, evidence, schema, and claim-rich summaries.",
+      "Entity clarity: the brand, category, geography, products, and relationships are unambiguous to machines.",
+      "Brand authority: third-party validation gives models confidence to cite you."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "geo-funnel"
   },
   {
     "number": 13,
@@ -197,11 +209,15 @@ const slides = [
     "visual": "",
     "note": "This is the single highest-leverage technical fix in the deck. A 15-minute robots.txt audit can recover citation share within weeks.",
     "content": [
-      "Below table — callout in coral: *\"~70% of lost ChatGPT citations come from sites that blocked training bots and accidentally blocked user bots too.\"*",
-      "This is the single highest-leverage technical fix in the deck. A 15-minute robots.txt audit can recover citation share within weeks."
+      "Training bots shape future model memory; blocking them can reduce long-term visibility.",
+      "User bots fetch live answers for AI products; blocking them can erase you from current recommendations.",
+      "Search crawlers still matter because AI Overviews and model answers reuse indexed web signals.",
+      "~70% of lost ChatGPT citations come from sites that blocked training bots and accidentally blocked user bots too.",
+      "A 15-minute robots.txt audit can recover citation share within weeks."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "crawler-access-table"
   },
   {
     "number": 14,
@@ -212,12 +228,13 @@ const slides = [
     "visual": "A side-by-side \"browser view vs. curl view\" mockup. Left shows a rich product page; right shows an empty HTML shell.",
     "note": "This single slide will trigger an emergency conversation with your dev team. That's the point.",
     "content": [
-      "Left — The Problem: AI user bots operate under tight latency budgets. They don't render JavaScript. SPAs, dynamic accordions, and JS-loaded pricing tables are functionally invisible.",
-      "Right — The Fix: Server-Side Rendering (SSR). Critical content in raw HTML. TTFB < 600ms. HTML payload < 1MB. Response < 3 seconds.",
-      "This single slide will trigger an emergency conversation with your dev team. That's the point."
+      "Problem: AI user bots operate under tight latency budgets and often do not render JavaScript-heavy interfaces.",
+      "Fix: serve critical content in raw HTML with SSR, TTFB under 600ms, HTML payload under 1MB, and response time under 3 seconds.",
+      "This slide should trigger an emergency conversation with your dev team. That is the point."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "browser-vs-curl"
   },
   {
     "number": 15,
@@ -228,17 +245,15 @@ const slides = [
     "visual": "A vertical rectangle representing a webpage with the three zones color-coded and percentages overlaid. Tactile and immediately intuitive.",
     "note": "",
     "content": [
-      "A diagram of an \"ideal\" citable page, broken into zones:",
-      "Top 30% (44.2% of all citations come from here): TL;DR + direct answer",
-      "Middle 30% (31.1%): Supporting evidence, data tables",
-      "Bottom 30% (24.7%): Context, exceptions, related entities",
-      "Side callouts:",
-      "68.7% of cited pages use strict H1→H3 hierarchy",
-      "30–40% visibility lift from structured lists & tables",
-      "2.1× more citations for pages with claim-rich intros"
+      "Top 30%: direct answer, TL;DR, and claim-rich intro. This zone drives 44.2% of citations.",
+      "Middle 30%: supporting evidence, tables, examples, and entity-rich details. This zone drives 31.1% of citations.",
+      "Bottom 30%: context, exceptions, related entities, and next-step links. This zone drives 24.7% of citations.",
+      "68.7% of cited pages use strict H1→H3 hierarchy.",
+      "Structured lists and tables produce a 30–40% visibility lift."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "citation-anatomy"
   },
   {
     "number": 16,
@@ -249,17 +264,16 @@ const slides = [
     "visual": "A single prompt bubble at the top, three branching arrows, three sub-query bubbles, all flowing into a single \"answer\" bubble at the bottom.",
     "note": "",
     "content": [
-      "A flow diagram:",
-      "User prompt (avg. 23 words): \"Most secure cloud storage for European medical data in 2026\"",
-      "Splits into fan-out sub-queries:",
-      "\"cloud storage encryption standards\"",
-      "\"European healthcare data sovereignty laws 2026\"",
-      "\"medical data compliance platforms\"",
-      "Final answer: Synthesized from sources covering all three sub-queries",
-      "*\"Win the cluster, not the keyword. Build semantic cocoons, not pages.\"*"
+      "User prompt: “Most secure cloud storage for European medical data in 2026.”",
+      "Fan-out query: cloud storage encryption standards.",
+      "Fan-out query: European healthcare data sovereignty laws in 2026.",
+      "Fan-out query: medical data compliance platforms.",
+      "Final answer: synthesized from sources covering all three sub-queries.",
+      "Win the cluster, not the keyword. Build semantic cocoons, not isolated pages."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "query-fanout"
   },
   {
     "number": 17,
@@ -270,15 +284,15 @@ const slides = [
     "visual": "",
     "note": "",
     "content": [
-      "Four stat cards in a 2×2 grid:",
       "4.3× — Visibility multiplier for content over 20,000 characters",
       "3.2× — Citation multiplier from a 30-day refresh cycle",
       "2.8× — Citations on product pages with original benchmarks",
-      "+40% — Domain visibility lift from proprietary data (Princeton GEO Framework)",
-      "Below, italic line: *\"AI-cited content averages 25.7% fresher than traditional organic results.\"*"
+      "+40% — Domain visibility lift from proprietary data",
+      "AI-cited content averages 25.7% fresher than traditional organic results."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "citation-multipliers"
   },
   {
     "number": 18,
@@ -289,12 +303,13 @@ const slides = [
     "visual": "A small JSON-LD code snippet on the left showing `@type: Organization` schema; a concept map on the right linking the brand entity to industry, geography, and category nodes.",
     "note": "",
     "content": [
-      "Two-column:",
-      "Left — Schema markup as a machine overlay: 61% of AI-cited pages use comprehensive schema. Organization, Article, FAQPage, Dataset, Product schemas all matter.",
-      "Right — Entity clarity: Use precise entity names, roles, locations, and relationships consistently across your content. Example: *\"Toronto Business Development Centre (TBDC) is a non-profit accelerator in Toronto, Ontario focused on government-funded entrepreneurship programs.\"*"
+      "Schema markup creates a machine-readable overlay: Organization, Article, FAQPage, Dataset, and Product schemas all matter.",
+      "Entity clarity depends on consistent names, roles, locations, categories, and relationships across every public surface.",
+      "Example: Toronto Business Development Centre (TBDC) is a non-profit accelerator in Toronto, Ontario focused on government-funded entrepreneurship programs."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "entity-schema-map"
   },
   {
     "number": 19,
@@ -305,18 +320,17 @@ const slides = [
     "visual": "",
     "note": "",
     "content": [
-      "A circular diagram of the \"external validation graph\" with the brand at the center and spokes labeled:",
       "Wikipedia / Wikidata",
-      "High-authority listicles (\"best of,\" \"top tools\")",
-      "Reddit threads (heavily moderated subs)",
-      "LinkedIn thought leadership",
-      "Crunchbase / G2 / Capterra",
-      "Major digital publishers",
-      "Podcast mentions",
-      "*\"Your PR strategy IS your AI strategy now. Earned mentions train the models that will recommend you.\"*"
+      "High-authority listicles and comparison pages",
+      "Moderated Reddit threads and community discussions",
+      "LinkedIn thought leadership and expert posts",
+      "Crunchbase, G2, Capterra, and category directories",
+      "Major digital publishers and podcast mentions",
+      "Your PR strategy is your AI strategy now. Earned mentions train the models that will recommend you."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "authority-graph"
   },
   {
     "number": 20,
@@ -326,7 +340,11 @@ const slides = [
     "subhead": "",
     "visual": "",
     "note": "",
-    "content": [],
+    "content": [
+      "Run a robots.txt and server-rendering audit for your five highest-value pages.",
+      "Rewrite one buying-intent page with a direct-answer intro, structured evidence, and entity-rich schema.",
+      "Build an external validation list: five places where your brand should be cited, reviewed, or compared."
+    ],
     "isDivider": false,
     "isAction": true
   },
@@ -351,12 +369,13 @@ const slides = [
     "visual": "A coral \"do not touch\" tape graphic across the bottom of the \"old job\" column.",
     "note": "",
     "content": [
-      "Two-column comparison:",
-      "Old job: Manual keyword bids, demographic toggles, hourly tweaks, granular campaign segmentation",
-      "New job: Asset diversity, audience signals, value-based bidding, clean conversion data, *resist tinkering*"
+      "Old job: manual keyword bids, demographic toggles, hourly tweaks, and granular campaign segmentation.",
+      "New job: asset diversity, audience signals, value-based bidding, clean conversion data, and disciplined restraint.",
+      "The highest-leverage paid search work is now engineering better inputs for the algorithm."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "paid-search-inversion"
   },
   {
     "number": 23,
@@ -367,15 +386,15 @@ const slides = [
     "visual": "",
     "note": "Most underperforming PMax setups have 8–15 micro-campaigns. Consolidation alone often unlocks 15–30% performance gains.",
     "content": [
-      "Three large stat callouts:",
       "30+ — Minimum monthly conversions per campaign for the algorithm to exit learning",
       "20–30 — Recommended PMax/AI Max consolidation floor",
-      "15% — Maximum bid/budget change per few-day window once stable",
-      "A small visual showing \"10 fragmented campaigns → 3 consolidated campaigns\" with arrows.",
-      "Most underperforming PMax setups have 8–15 micro-campaigns. Consolidation alone often unlocks 15–30% performance gains."
+      "15% — Maximum bid or budget change per few-day window once stable",
+      "Consolidate 10 fragmented campaigns into 3 signal-rich campaigns before judging performance.",
+      "Most underperforming PMax setups have 8–15 micro-campaigns; consolidation often unlocks 15–30% gains."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "campaign-consolidation"
   },
   {
     "number": 24,
@@ -386,18 +405,15 @@ const slides = [
     "visual": "",
     "note": "If your AI is being trained on bot fills and tire-kickers, it will go find more of them — fast.",
     "content": [
-      "Funnel diagram:",
-      "Top: Form fills (mixed quality)",
-      "Middle: Qualified leads (CRM-validated)",
-      "Bottom: Closed-won revenue",
-      "Around the funnel: Three callouts:",
-      "\"Optimize toward Target ROAS or Conversion Value, not Target CPA\"",
-      "\"Send closed-won data back via offline conversion tracking (OCT)\"",
-      "\"Implement enhanced conversions and CAPI for first-party signal pass-back\"",
-      "If your AI is being trained on bot fills and tire-kickers, it will go find more of them — fast."
+      "Form fills: mixed-quality volume that can mislead bidding algorithms.",
+      "Qualified leads: CRM-validated signals that better predict pipeline.",
+      "Closed-won revenue: the outcome AI should optimize toward.",
+      "Optimize toward Target ROAS or Conversion Value, not Target CPA.",
+      "Send closed-won data back via offline conversion tracking, enhanced conversions, and CAPI."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "conversion-quality-funnel"
   },
   {
     "number": 25,
@@ -420,13 +436,14 @@ const slides = [
     "visual": "A small \"creative testing matrix\" graphic — a 4×4 grid of thumbnail placeholders in different formats (UGC, founder-led, static carousel, polished production) with green/red performance overlays.",
     "note": "",
     "content": [
-      "Three large stat callouts:",
       "15–50 — Active creative variants per Advantage+ campaign",
       "+18% — Average ROAS lift from AI chat signal targeting on Meta",
-      "11–22% — Reported ROAS range for advertisers fully embracing automation"
+      "11–22% — Reported ROAS range for advertisers fully embracing automation",
+      "Creative breadth is now the control surface: format, hook, proof, offer, and pacing all become testable variables."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "creative-testing-matrix"
   },
   {
     "number": 27,
@@ -437,13 +454,13 @@ const slides = [
     "visual": "",
     "note": "If you remember nothing else from this section: CAPI is no longer optional.",
     "content": [
-      "Diagram showing two paths:",
-      "Path A (broken): Browser-side pixel only → cookie loss, ATT impact, signal degradation → AI optimizes against shadows",
-      "Path B (correct): Server-side CAPI + offline conversions → privacy-compliant business signal → AI optimizes against actual revenue",
+      "Broken path: browser-side pixel only → cookie loss, ATT impact, signal degradation → AI optimizes against shadows.",
+      "Correct path: server-side CAPI + offline conversions → privacy-compliant business signal → AI optimizes against actual revenue.",
       "If you remember nothing else from this section: CAPI is no longer optional."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "capi-signal-paths"
   },
   {
     "number": 28,
@@ -454,13 +471,13 @@ const slides = [
     "visual": "A small \"buying group\" diagram — six avatar circles connected to a single account node.",
     "note": "",
     "content": [
-      "Three best-practice cards:",
-      "Buying group, not buyer: Design for the entire 6–10 person committee",
-      "Intent-triggered: Activate based on real research behavior + third-party intent, not calendar",
-      "Coordinated: Sync ad exposure with SDR outbound and direct mail for omnipresence"
+      "Buying group, not buyer: design for the full 6–10 person committee.",
+      "Intent-triggered activation: launch based on real research behavior and third-party intent, not calendar timing.",
+      "Coordinated omnipresence: sync ad exposure with SDR outbound and direct mail."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "linkedin-buying-group"
   },
   {
     "number": 29,
@@ -483,13 +500,13 @@ const slides = [
     "visual": "",
     "note": "",
     "content": [
-      "Two-column:",
-      "Left — What's losing: Polished corporate posts, fully synthetic avatars, generic AI-written captions",
-      "Right — What's winning: Founder-led video, employee advocacy, lo-fi UGC, expert POV carousels, substantive Reddit/community participation",
-      "*\"Employee posts on LinkedIn receive ~2× the engagement of company pages.\"*"
+      "What is losing: polished corporate posts, synthetic avatars, and generic AI-written captions.",
+      "What is winning: founder-led video, employee advocacy, lo-fi UGC, expert POV carousels, and substantive community participation.",
+      "Employee posts on LinkedIn receive roughly 2× the engagement of company pages."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "human-brand-cards"
   },
   {
     "number": 31,
@@ -500,13 +517,13 @@ const slides = [
     "visual": "A vertical phone mockup on the right showing a TikTok-style frame with annotations pointing to each optimization zone.",
     "note": "",
     "content": [
-      "Three-column tactical guide:",
-      "Verbalize keywords in the first 3 seconds — AI transcribes spoken audio",
-      "Embed keyword-rich text overlays — AI parses on-screen text",
-      "Write descriptive long-form captions and alt text — Powers native social search ranking"
+      "Verbalize keywords in the first 3 seconds so AI can transcribe the topic.",
+      "Embed keyword-rich text overlays because platforms parse on-screen text.",
+      "Write descriptive long-form captions and alt text to power native social search ranking."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "social-search-phone"
   },
   {
     "number": 32,
@@ -517,10 +534,15 @@ const slides = [
     "visual": "",
     "note": "Same content, different cuts per platform — that's the workflow.",
     "content": [
-      "Same content, different cuts per platform — that's the workflow."
+      "TikTok: watch time and replays reward a fast hook, spoken keywords, and visible on-screen text.",
+      "Instagram: saves, shares, and topic relevance reward carousel utility and descriptive captions.",
+      "YouTube: retention and session continuation reward search-aligned titles, chapters, and thumbnails.",
+      "LinkedIn: dwell time and expert engagement reward first-person POV and credible comments.",
+      "Reddit: thread depth and community trust reward transparent participation, not brand broadcasting."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "platform-cheat-sheet"
   },
   {
     "number": 33,
@@ -543,11 +565,17 @@ const slides = [
     "visual": "",
     "note": "",
     "content": [
-      "Horizontal workflow diagram with 6 stages:",
-      "*\"Teams running this workflow report 60–80% reductions in publishing time — without losing originality.\"*"
+      "Research: gather audience questions, customer proof, and source material.",
+      "Outline: structure the argument and identify the unique point of view.",
+      "Draft: use AI for first-pass synthesis and variant generation.",
+      "Expert edit: add judgment, examples, accuracy checks, and brand voice.",
+      "Package: turn the final idea into article, social, email, and sales formats.",
+      "Repurpose: refresh and redistribute based on performance signals.",
+      "Teams using this workflow report 60–80% reductions in publishing time without losing originality."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "content-workflow"
   },
   {
     "number": 35,
@@ -558,14 +586,14 @@ const slides = [
     "visual": "",
     "note": "",
     "content": [
-      "Three card stack:",
-      "Proprietary research — Surveys, cohort analyses, anonymized customer data",
-      "Practitioner POV — First-person experience, contrarian takes, named expert quotes",
-      "Original benchmarks — Performance comparisons, structured data tables LLMs can pull cleanly",
-      "*\"Generic summaries lose to original data — in search, in social, and in AI answer engines.\"*"
+      "Proprietary research: surveys, cohort analyses, anonymized customer data, and owned benchmarks.",
+      "Practitioner POV: first-person experience, contrarian takes, and named expert quotes.",
+      "Original benchmarks: performance comparisons and structured data tables LLMs can pull cleanly.",
+      "Generic summaries lose to original data — in search, in social, and in AI answer engines."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "originality-stack"
   },
   {
     "number": 36,
@@ -588,13 +616,13 @@ const slides = [
     "visual": "A simple line chart showing two send strategies — \"Calendar Drops\" (flat revenue) vs. \"AI-Triggered\" (rising revenue) over a 90-day window.",
     "note": "",
     "content": [
-      "Two-column:",
-      "Left — What AI predicts in real time: Churn risk, next-purchase likelihood, channel preference, ideal send window, cross-sell affinity",
-      "Right — What changes operationally: Workflows trigger on individual statistical receptivity — not the marketing calendar",
-      "*\"Klaviyo data shows 18–45% higher revenue per recipient for brands using AI-driven segments.\"*"
+      "What AI predicts in real time: churn risk, next-purchase likelihood, channel preference, ideal send window, and cross-sell affinity.",
+      "What changes operationally: workflows trigger on individual statistical receptivity rather than the marketing calendar.",
+      "Klaviyo data shows 18–45% higher revenue per recipient for brands using AI-driven segments."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "predictive-lifecycle-line"
   },
   {
     "number": 38,
@@ -605,13 +633,13 @@ const slides = [
     "visual": "A small \"send frequency\" chart showing volume going down while revenue per recipient goes up — the inverse correlation that defines the modern lifecycle program.",
     "note": "",
     "content": [
-      "Three principles:",
-      "Zero-party first: Information the customer explicitly volunteers > inferred behavior",
-      "Quality over volume: Fewer sends, higher-impact moments",
-      "Channel optimization: AI dynamically picks email vs. SMS vs. RCS per user, per moment"
+      "Zero-party first: information the customer explicitly volunteers is more durable than inferred behavior.",
+      "Quality over volume: fewer sends, higher-impact moments.",
+      "Channel optimization: AI dynamically picks email, SMS, or RCS per user and per moment."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "privacy-relevance-chart"
   },
   {
     "number": 39,
@@ -634,12 +662,13 @@ const slides = [
     "visual": "A small 2×2 matrix — \"Fit Score\" on the X-axis, \"Intent Score\" on the Y-axis, with quadrants labeled (Hot, Nurture, Disqualify, Educate).",
     "note": "",
     "content": [
-      "Two-column comparison:",
-      "Old: \"+5 points for whitepaper download\" — human-assigned, biased, stale",
-      "New: AI models trained on the last 50 closed-won/closed-lost deals — separates ICP \"fit\" from behavioral \"intent\""
+      "Old scoring: +5 points for a whitepaper download — human-assigned, biased, and stale.",
+      "New scoring: AI models trained on the last 50 closed-won and closed-lost deals separate ICP fit from behavioral intent.",
+      "The best RevOps teams route by fit and intent together, not by arbitrary point totals."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "fit-intent-matrix"
   },
   {
     "number": 41,
@@ -650,17 +679,16 @@ const slides = [
     "visual": "",
     "note": "This is what \"marketing-sales unified\" actually looks like in practice in 2026 — not a meeting, an automated system.",
     "content": [
-      "Trigger-and-response diagram:",
-      "Trigger: Account hits intent threshold (6sense, Apollo, Unify)",
-      "Simultaneous response:",
-      "Display ads activate against the buying group",
-      "Personalized email sequence fires to multiple personas",
-      "SDR alert with full context drops in the rep's CRM",
-      "Direct mail trigger to top 2 buyers",
-      "This is what \"marketing-sales unified\" actually looks like in practice in 2026 — not a meeting, an automated system."
+      "Trigger: an account hits an intent threshold in 6sense, Apollo, or Unify.",
+      "Display ads activate against the buying group.",
+      "Personalized email sequences fire to multiple personas.",
+      "SDR alert with full context drops in the rep’s CRM.",
+      "Direct mail triggers for the top two buyers.",
+      "Marketing-sales alignment becomes an automated system, not another meeting."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "pipeline-response"
   },
   {
     "number": 42,
@@ -671,14 +699,14 @@ const slides = [
     "visual": "",
     "note": "",
     "content": [
-      "Four-card row:",
-      "Listen: Call analysis, deal-risk detection",
-      "Summarize: Auto-generated meeting notes, CRM field updates",
-      "Draft: Personalized follow-ups, proposal scaffolds",
-      "Feed back: Real conversion data flows to ad platforms for optimization"
+      "Listen: call analysis and deal-risk detection.",
+      "Summarize: auto-generated meeting notes and CRM field updates.",
+      "Draft: personalized follow-ups and proposal scaffolds.",
+      "Feed back: real conversion data flows to ad platforms for optimization."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "enablement-loop"
   },
   {
     "number": 43,
@@ -689,13 +717,13 @@ const slides = [
     "visual": "",
     "note": "",
     "content": [
-      "Two-column:",
-      "Left — What changed: Modern agents are grounded in the proprietary knowledge base. They resolve, return, troubleshoot — and escalate gracefully.",
-      "Right — What it unlocks: Sentiment analysis on tickets surfaces objections marketing can address upstream. AI agents recognize cross-sell moments mid-conversation.",
-      "*\"The Chevy dealership that 'sold' a car for $1: what happens when you skip context architecture and escalation guardrails.\"*"
+      "What changed: modern agents are grounded in the proprietary knowledge base and can resolve, return, troubleshoot, and escalate gracefully.",
+      "What it unlocks: ticket sentiment reveals objections marketing can address upstream, and agents can recognize cross-sell moments mid-conversation.",
+      "The Chevy dealership bot shows what happens when context architecture and escalation guardrails are skipped."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "conversational-ai-loop"
   },
   {
     "number": 44,
@@ -718,14 +746,14 @@ const slides = [
     "visual": "",
     "note": "",
     "content": [
-      "Triangle diagram with three labeled vertices:",
-      "MMM (Marketing Mix Modeling): Macro view, cross-channel impact, accounts for seasonality. AI made it dynamic and always-on.",
-      "Incrementality Testing: The causal \"would this have happened anyway?\" gold standard. Geo-lift, holdouts, micro-experiments.",
-      "Server-Side Digital Attribution: CAPI, enhanced conversions — feeds the algorithms, not the boardroom.",
-      "Italic line below: *\"Together: the Suite of Truth. Apart: misleading vanity metrics.\"*"
+      "MMM: macro view of cross-channel impact, accounting for seasonality; AI made it dynamic and always-on.",
+      "Incrementality testing: the causal gold standard for whether the conversion would have happened anyway.",
+      "Server-side digital attribution: CAPI and enhanced conversions feed algorithms with better signals.",
+      "Together they form the Suite of Truth. Apart, they produce misleading vanity metrics."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "suite-of-truth-triangle"
   },
   {
     "number": 46,
@@ -736,10 +764,13 @@ const slides = [
     "visual": "",
     "note": "Use this slide as a sanity check for your own dashboard. If you're an outlier, it's either a strategic advantage or a measurement bug.",
     "content": [
-      "Use this slide as a sanity check for your own dashboard. If you're an outlier, it's either a strategic advantage or a measurement bug."
+      "B2B sanity check: pipeline quality, sales-cycle velocity, account engagement, and opportunity conversion matter more than raw lead volume.",
+      "B2C sanity check: contribution margin, repeat purchase rate, customer lifetime value, and revenue per recipient matter more than traffic volume.",
+      "If your dashboard is an outlier, diagnose whether it reflects strategic advantage, measurement drift, or broken signal plumbing."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "benchmark-table"
   },
   {
     "number": 47,
@@ -762,14 +793,14 @@ const slides = [
     "visual": "",
     "note": "",
     "content": [
-      "Three-column requirements grid:",
-      "Mark synthetic content in machine-readable format (audio, image, video, text)",
-      "Disclose deepfakes and certain AI content to end users with prominent labels — not buried metadata",
-      "Applies extraterritorially — US/global brands marketing to EU citizens are in scope regardless of HQ location",
-      "*\"State-level laws in California and New York extend similar requirements to synthetic performers and AI likeness rights.\"*"
+      "Machine-readable disclosure: mark synthetic content in audio, image, video, and text formats.",
+      "Prominent user disclosure: deepfakes and certain AI content must be labeled clearly, not hidden in metadata.",
+      "Extraterritorial scope: global brands marketing to EU citizens are in scope regardless of headquarters location.",
+      "California and New York extend similar requirements to synthetic performers and AI likeness rights."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "compliance-grid"
   },
   {
     "number": 49,
@@ -780,11 +811,15 @@ const slides = [
     "visual": "",
     "note": "",
     "content": [
-      "Four-pillar AI Acceptable Use Policy:",
-      "*\"This is the lowest-difficulty, highest-risk-mitigation action in the entire deck.\"*"
+      "Approved tools: define which AI systems teams may use and for what tasks.",
+      "Data boundaries: prohibit sensitive customer, employee, and proprietary data from unapproved tools.",
+      "Disclosure rules: specify when AI assistance, synthetic media, or automation must be labeled.",
+      "Escalation and audit path: create review checkpoints for legal, brand, and customer-impacting use cases.",
+      "This is the lowest-difficulty, highest-risk-mitigation action in the deck."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "acceptable-use-policy"
   },
   {
     "number": 50,
@@ -807,13 +842,13 @@ const slides = [
     "visual": "",
     "note": "",
     "content": [
-      "Two-column diagram:",
-      "Left — Centralized AI Governance Core (RevOps/MOps): Owns CRM data hygiene, brand voice doc, product knowledge, compliance, vendor procurement",
-      "Right — Decentralized Execution (channel marketers): Deploy AI agents inside the sandbox; rapid local iteration without breaking governance",
-      "Center role highlight (coral box): *\"The Context Engineer / Agent Orchestrator — the 2026 prestige role. Not a prompt writer; a data pipeline architect.\"*"
+      "Centralized AI Governance Core: RevOps and MOps own CRM hygiene, brand voice, product knowledge, compliance, and vendor procurement.",
+      "Decentralized Execution Pods: channel marketers deploy AI agents inside the sandbox and iterate quickly without breaking governance.",
+      "Context Engineer / Agent Orchestrator: the bridge role that turns brand truth and data pipelines into reliable AI workflows."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "hybrid-org-model"
   },
   {
     "number": 52,
@@ -823,9 +858,16 @@ const slides = [
     "subhead": "",
     "visual": "",
     "note": "",
-    "content": [],
+    "content": [
+      "Data and context layer: CRM, CDP, product catalog, knowledge base, brand memory, consent records.",
+      "Orchestration layer: agent workflows, prompt/context templates, approval gates, and task routing.",
+      "Channel execution layer: paid media, lifecycle, content, sales enablement, and conversational AI tools.",
+      "Measurement and governance layer: MMM, incrementality, server-side attribution, compliance logs, and model monitoring.",
+      "Avoid disconnected point tools that cannot share context or feed outcomes back into the system."
+    ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "tech-stack-layers"
   },
   {
     "number": 53,
@@ -848,13 +890,13 @@ const slides = [
     "visual": "",
     "note": "",
     "content": [
-      "Three-column timeline:",
-      "Days 1–30 — Groundwork & Governance: Stack audit, AI committee, AUP published, brand voice locked, single AI content platform connected to CMS",
-      "Days 31–60 — Pilot Execution: ONE high-friction workflow (e.g., predictive lead scoring on one product line). Test with historical data. Measure against baseline.",
-      "Days 61–90 — Review & Scale: Compare to baseline. Refine context architecture. Expand the proven workflow to adjacent channels."
+      "Days 1–30 — Groundwork and Governance: audit the stack, form the AI committee, publish the AUP, lock brand voice, and connect one AI content platform to the CMS.",
+      "Days 31–60 — Pilot Execution: choose one high-friction workflow, test with historical data, and measure against baseline.",
+      "Days 61–90 — Review and Scale: compare to baseline, refine context architecture, and expand the proven workflow to adjacent channels."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "roadmap-90-day"
   },
   {
     "number": 55,
@@ -865,14 +907,14 @@ const slides = [
     "visual": "Each segment has a small icon and a color gradient deepening from light ice blue → navy across the timeline.",
     "note": "",
     "content": [
-      "Horizontal 4-segment timeline:",
-      "Months 1–3 — Adoption & Literacy: Productivity gains, safe workflow automation, prompting fundamentals",
-      "Months 4–6 — Optimization & Architecture: Static prompts → context architecture; manual targeting → algorithmic bidding",
-      "Months 7–9 — Predictive Orchestration: Full lifecycle predictive segmentation; MMM + incrementality unified measurement",
-      "Months 10–12 — Self-Sustaining Engine: Brand memory persistence; 3–5× content scale; cited 340% Y1 ROI ceiling for top performers"
+      "Months 1–3 — Adoption and Literacy: productivity gains, safe workflow automation, and prompting fundamentals.",
+      "Months 4–6 — Optimization and Architecture: static prompts become context architecture; manual targeting becomes algorithmic bidding.",
+      "Months 7–9 — Predictive Orchestration: lifecycle segmentation, MMM, incrementality, and unified measurement start working together.",
+      "Months 10–12 — Self-Sustaining Engine: brand memory persists, content scales 3–5×, and top performers approach the 340% Y1 ROI ceiling."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "maturity-roadmap"
   },
   {
     "number": 56,
@@ -882,9 +924,15 @@ const slides = [
     "subhead": "",
     "visual": "",
     "note": "",
-    "content": [],
+    "content": [
+      "High impact / low difficulty: robots.txt audit, AI acceptable use policy, first-party signal pass-back, brand voice package.",
+      "High impact / high difficulty: context architecture, MMM + incrementality stack, CAPI/OCT implementation, lifecycle predictive orchestration.",
+      "Low impact / low difficulty: prompt libraries, lightweight content repurposing, caption/alt-text improvements.",
+      "Low impact / high difficulty: bespoke agents without clean data, overbuilt dashboards, and broad automation before governance."
+    ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "action-matrix"
   },
   {
     "number": 57,
@@ -895,13 +943,13 @@ const slides = [
     "visual": "",
     "note": "",
     "content": [
-      "Two columns:",
-      "✓ Good — Mango \"Sunset Dream\" (2024): Proprietary garment photography → bespoke generative model trained on brand IP → human art directors at every step. Solved a real production bottleneck. Brand-safe, cohesive, profitable.",
-      "✗ Bad — The Chevy Dealership Bot: Unsupervised public-facing chatbot with no escalation guardrails. Manipulated into \"agreeing\" to sell a vehicle for $1. Viral embarrassment. Legal exposure.",
-      "*\"The technology is identical. The architecture, oversight, and incentives are not.\"*"
+      "Good: Mango “Sunset Dream” used proprietary garment photography, a bespoke generative model trained on brand IP, and human art directors at every step.",
+      "Bad: the Chevy dealership bot was unsupervised, public-facing, and lacked escalation guardrails; it was manipulated into agreeing to sell a vehicle for $1.",
+      "The technology is similar. The architecture, oversight, and incentives are not."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "good-bad-cases"
   },
   {
     "number": 58,
@@ -912,11 +960,14 @@ const slides = [
     "visual": "Dark navy background, large white headline, principles in ice blue, single coral square anchor mirroring the title slide.",
     "note": "The brands that win 2027 are the ones that look at this slide and start moving on Monday.",
     "content": [
-      "Three concise principles, large type:",
-      "The brands that win 2027 are the ones that look at this slide and start moving on Monday."
+      "Structure brand truth so machines can understand it.",
+      "Govern AI workflows before they touch customers, budgets, or compliance risk.",
+      "Measure business outcomes, not AI activity.",
+      "The brands that win 2027 are the ones that start moving on Monday."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "closing-principles"
   },
   {
     "number": 59,
@@ -939,24 +990,16 @@ const slides = [
     "visual": "",
     "note": "",
     "content": [
-      "Two columns of grouped citations from the underlying research, organized by section (Strategic Model, GEO/AIO, Paid Media, Lifecycle, Measurement, Governance). Use small 9pt text. List only the ~15 most-cited primary sources from the research documents (BCG, PwC, Stanford HAI, Princeton GEO Framework, Search Engine Land, Conductor, Semrush, Klaviyo, etc.).",
-      "\"Compiled May 2026 from primary research and industry benchmarks.\"",
-      "Section dividers: large numbered chip (\"01\" through \"12\") in coral at low opacity",
-      "All stat callouts: 60–72pt numerals in coral on light slides, in white on dark slides",
-      "All tables: navy header row, alternating ice blue / white body rows, 14pt body text",
-      "All \"Do This Monday\" slides: numbered chips 1, 2, 3 in coral circles, identical layout",
-      "Slide 2: Conversion comparison bar chart (traditional vs. AI-referred)",
-      "Slide 10: Traffic vs. quality inversion stacked bar",
-      "Slide 11: Share of Model competitor dashboard mockup",
-      "Slide 15: Citation distribution by page zone (44.2% / 31.1% / 24.7%)",
-      "Slide 17: 2×2 multiplier card grid",
-      "Slide 37: Calendar vs. AI-triggered revenue line chart",
-      "Slide 38: Inverse-correlation send frequency chart",
-      "Coral on navy passes contrast for headings only (≥36pt). Use white for body text on dark backgrounds.",
-      "Every chart needs an alt-text speaker note describing the data verbally for visually impaired audiences."
+      "Strategic model: BCG and PwC research on AI operating models, workflow redesign, and productivity gains.",
+      "Discoverability: Princeton GEO Framework, Search Engine Land, Conductor, Semrush, and AI Overview visibility studies.",
+      "Paid media and lifecycle: Google Ads, Meta Advantage+, LinkedIn Accelerate, Klaviyo, Braze, and HubSpot benchmark materials.",
+      "Measurement: MMM, incrementality, CAPI, enhanced conversions, and server-side attribution guidance from platform and analytics sources.",
+      "Governance: Stanford HAI AI Index, EU AI Act guidance, and state-level synthetic media disclosure requirements.",
+      "Compiled May 2026 from primary research and industry benchmarks."
     ],
     "isDivider": false,
-    "isAction": false
+    "isAction": false,
+    "visualType": "sources-grid"
   }
 ];
 
@@ -1007,16 +1050,87 @@ function Comparison({ lines }) {
   return <div className="comparison-grid">{candidates.map((line, i) => <article key={i}><b>{cleanLine(line).split(':')[0]}</b><p>{cleanLine(line).includes(':') ? cleanLine(line).split(':').slice(1).join(':').trim() : cleanLine(line)}</p></article>)}</div>;
 }
 
+function splitParts(line) {
+  const cleaned = cleanLine(line);
+  const [label, ...rest] = cleaned.split(':');
+  return rest.length ? { label, body: rest.join(':').trim() } : { label: '', body: cleaned };
+}
+
+function CardVisual({ slide, columns = 3 }) {
+  const items = slide.content.map(cleanLine).filter(Boolean).slice(0, columns * 2);
+  return <div className={`deck-visual card-visual cols-${columns}`}>{items.map((item, i) => { const { label, body } = splitParts(item); return <article key={i}><b>{label || String(i + 1).padStart(2, '0')}</b><p>{body}</p></article>; })}</div>;
+}
+
+function StatVisual({ slide }) {
+  const stats = slide.content.map(statParts).filter(Boolean).slice(0, 4);
+  if (!stats.length) return <CardVisual slide={slide} />;
+  return <div className="deck-visual stat-visual">{stats.map((stat, i) => <article key={i}><strong>{stat.value}</strong><span>{stat.label}</span></article>)}</div>;
+}
+
+function SplitVisual({ slide, labels = ['Before', 'After'] }) {
+  const items = slide.content.map(cleanLine).filter(Boolean).slice(0, 2);
+  return <div className="deck-visual split-visual">{items.map((item, i) => { const { label, body } = splitParts(item); return <article key={i}><b>{label || labels[i]}</b><p>{body}</p></article>; })}</div>;
+}
+
+function FlowVisual({ labels }) {
+  return <div className="deck-visual flow-visual">{labels.map((label, i) => <React.Fragment key={label}><article><b>{String(i + 1).padStart(2, '0')}</b><span>{label}</span></article>{i < labels.length - 1 && <i aria-hidden="true" />}</React.Fragment>)}</div>;
+}
+
+function FunnelVisual({ labels }) {
+  return <div className="deck-visual funnel-visual">{labels.map((label, i) => <article key={label} style={{ '--w': `${100 - i * 13}%` }}><b>{label}</b></article>)}</div>;
+}
+
+function DeckMapVisual() {
+  const items = ['Strategic Model','Discoverability','Paid Search','Paid Social','Organic & Community','Content','Lifecycle','CRM & RevOps','Conversational AI','Measurement','Governance','Org Design'];
+  return <div className="deck-visual deck-map-visual">{items.map((item, i) => <article key={item}><b>{String(i + 1).padStart(2, '0')}</b><span>{item}</span></article>)}</div>;
+}
+
+function ChartVisual({ type }) {
+  if (type === 'conversion-bars') return <div className="deck-visual bar-visual"><article><span style={{ height: '32%' }} /><b>1×</b><p>Traditional organic</p></article><article><span style={{ height: '92%' }} /><b>4.4×</b><p>AI-referred</p></article></div>;
+  if (type === 'traffic-quality-inversion') return <div className="deck-visual inversion-visual"><article><b>Traffic volume</b><span className="down" /></article><strong>Fewer clicks, better clicks</strong><article><b>Conversion quality</b><span className="up" /></article></div>;
+  return <div className="deck-visual line-visual"><svg viewBox="0 0 760 260" role="img"><polyline points="40,135 210,140 380,134 550,139 720,136" /><polyline className="accent" points="40,205 210,178 380,138 550,94 720,55" /><text x="48" y="238">90 days</text><text x="560" y="72">AI-triggered</text><text x="565" y="130">Calendar</text></svg></div>;
+}
+
+function MatrixVisual({ type }) {
+  if (type === 'creative-testing-matrix') return <div className="deck-visual creative-matrix">{Array.from({ length: 16 }).map((_, i) => <span key={i} className={i % 3 === 0 ? 'hot' : i % 3 === 1 ? 'warm' : ''} />)}</div>;
+  const labels = type === 'fit-intent-matrix' ? ['Educate','Nurture','Disqualify','Hot'] : ['Low impact / easy','High impact / easy','Low impact / hard','High impact / hard'];
+  return <div className="deck-visual matrix-visual">{labels.map((label) => <article key={label}>{label}</article>)}</div>;
+}
+
+function NetworkVisual({ type }) {
+  if (type === 'suite-of-truth-triangle') return <div className="deck-visual triangle-visual"><article>MMM</article><article>Incrementality</article><article>Server-side attribution</article></div>;
+  if (type === 'hybrid-org-model') return <div className="deck-visual org-visual"><article>Governance Core</article><b>Context Engineer</b><article>Execution Pods</article></div>;
+  return <div className="deck-visual network-visual"><b>{type === 'authority-graph' ? 'Brand' : 'Signal'}</b>{['Wikipedia','Reddit','LinkedIn','G2','Publishers','Podcasts'].map((item) => <span key={item}>{item}</span>)}</div>;
+}
+
 function DataViz({ slide }) {
-  const title = slide.headline + ' ' + slide.title;
-  if (/Share of Model/i.test(title)) {
-    const brands = ['Acronym', 'Northstar', 'Orbit', 'Signal', 'Legacy'];
-    return <div className="som-chart">{brands.map((brand, i) => <div className="som-row" key={brand}><span>{brand}</span><i style={{ width: (88 - i * 12) + '%' }} /><em>{88 - i * 12}%</em></div>)}</div>;
+  const type = slide.visualType;
+  if (!type || type === 'title-card') return null;
+  if (type === 'deck-map') return <DeckMapVisual />;
+  if (['conversion-bars','traffic-quality-inversion','predictive-lifecycle-line','privacy-relevance-chart'].includes(type)) return <ChartVisual type={type} />;
+  if (type === 'citation-multipliers') return <StatVisual slide={slide} />;
+  if (['era-shift','paid-search-inversion','human-brand-cards','good-bad-cases','capi-signal-paths','conversational-ai-loop'].includes(type)) return <SplitVisual slide={slide} />;
+  if (['context-architecture','query-fanout','pipeline-response','content-workflow','roadmap-90-day','maturity-roadmap','tech-stack-layers','campaign-consolidation','enablement-loop'].includes(type)) {
+    const flowLabels = {
+      'context-architecture': ['CRM','Product feed','Brand voice','LLM / Agent','Channels'],
+      'query-fanout': ['Prompt','Sub-query 1','Sub-query 2','Sub-query 3','Answer'],
+      'pipeline-response': ['Intent trigger','Display ads','Email','SDR alert','Direct mail'],
+      'content-workflow': ['Research','Outline','Draft','Expert edit','Package','Repurpose'],
+      'roadmap-90-day': ['Days 1–30','Days 31–60','Days 61–90'],
+      'maturity-roadmap': ['Months 1–3','Months 4–6','Months 7–9','Months 10–12'],
+      'tech-stack-layers': ['Data + context','Orchestration','Channel execution','Measurement + governance'],
+      'campaign-consolidation': ['10 fragmented campaigns','Signal merge','3 consolidated campaigns'],
+      'enablement-loop': ['Listen','Summarize','Draft','Feed back']
+    };
+    return <FlowVisual labels={flowLabels[type]} />;
   }
-  if (/triangle|Three Legs|Measurement/i.test(title)) return <div className="triangle"><span>MMM</span><span>Incrementality</span><span>Server-Side Attribution</span></div>;
-  if (/roadmap|timeline|90-Day|12-Month/i.test(title)) return <div className="timeline">{['Groundwork','Pilot','Scale','Engine'].map((x,i)=><span key={x}><b>{i+1}</b>{x}</span>)}</div>;
-  if (/funnel|GEO|query|crawl|citation|traffic|conversion|lifecycle|send/i.test(title)) return <div className="signal-bars"><i/><i/><i/><i/></div>;
-  return null;
+  if (['geo-funnel','conversion-quality-funnel','citation-anatomy'].includes(type)) {
+    const labels = type === 'geo-funnel' ? ['Technical access','Content structure','Entity clarity','Brand authority'] : type === 'conversion-quality-funnel' ? ['Form fills','Qualified leads','Closed-won revenue'] : ['Top 30%: 44.2%','Middle 30%: 31.1%','Bottom 30%: 24.7%'];
+    return <FunnelVisual labels={labels} />;
+  }
+  if (['fit-intent-matrix','action-matrix','creative-testing-matrix'].includes(type)) return <MatrixVisual type={type} />;
+  if (['authority-graph','suite-of-truth-triangle','hybrid-org-model'].includes(type)) return <NetworkVisual type={type} />;
+  return <CardVisual slide={slide} columns={type === 'sources-grid' ? 2 : 3} />;
 }
 
 function ContentSlide({ slide }) {
