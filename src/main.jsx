@@ -1036,7 +1036,7 @@ function ContentSlide({ slide }) {
 }
 
 function DividerSlide({ slide }) {
-  const numeral = (slide.headline.match(/^(\d+)/) || slide.section.match(/^(\d+)/) || ['00'])[1];
+  const numeral = (slide.headline.match(/^(\d+)/) || slide.section.match(/^(\d+)/) || ['', '00'])[1];
   return <section className="divider-slide"><div className="watermark">{numeral}</div><p>{slide.section}</p><h1>{slide.headline}</h1>{slide.subhead && <h2>{slide.subhead}</h2>}</section>;
 }
 
