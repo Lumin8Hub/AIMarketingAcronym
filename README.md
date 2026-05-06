@@ -14,3 +14,5 @@ Use the on-screen controls, slide rail, or keyboard arrows to navigate.
 The GitHub Actions workflow in `.github/workflows/deploy.yml` builds the app with Vite and deploys `dist/` to GitHub Pages.
 
 After merging, enable **Settings → Pages → Source: GitHub Actions** if it is not already enabled.
+
+The project site is published at `https://lumin8hub.github.io/AIMarketingAcronym/`.
