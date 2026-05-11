@@ -1,6 +1,6 @@
-# AI Marketing Acronym Deck
+# BHive AI Marketing Strategy Deck
 
-A navigable React web presentation for **The State of AI for Marketing in 2026**, adapted from the supplied outline and Acronym design system.
+A navigable React web presentation for **How TBDC Marketing Can Support BHive AI Launch**, adapted from the supplied BHive AI slide outline and visual templates.
 
 ## Run locally
 
